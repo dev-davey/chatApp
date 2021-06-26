@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <div class="chatContainer row">
+            <div class="chatHeader col-12 my-auto">
+                <img class="text-right" src="./chat.png" alt="">
+            </div>
+            <div class="chatLeftCol col-lg-4 col-6">
+            <h5>ChatRoom</h5>
+            <ul>
+                <li><p>Social</p></li>
+            </ul>
+            <h5>Users</h5>
+            <ul>
+                <li><p>David</p></li>
+                <li><p>David</p></li>
+                <li><p>David</p></li>
+                <li><p>David</p></li>
+                <li><p>David</p></li>
+                <li><p>David</p></li>
+                <li><p>David</p></li>
+                <li><p>David</p></li>
+            </ul>
+            </div>
+            <div class="chatRightCol col-lg-8 col-6">
+                <div class="message">
+                    <p>time: message</p>
+                </div>
+            </div>
+            <div class="chatBotCol col-12 text-right">
+                <input type="text"/>
+                <button class="btn btn-primary">Send</button>
+            </div>
+    </div>
+</div>
+
+<script
+      src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.9.2/qs.min.js"
+      integrity="sha256-TDxXjkAUay70ae/QJBEpGKkpVslXaHHayklIVglFRT4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

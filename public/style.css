@@ -1,0 +1,132 @@
+.center {
+  display: grid;
+  height: 100vh;
+  place-items: center;
+}
+
+#loginForm {
+  height: 50vh;
+  width: 50vw;
+  border: solid blueviolet 7px;
+}
+
+.loginHeader {
+  height: 5rem;
+  width: auto;
+  border-bottom: solid blueviolet 7px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  display: flex;
+}
+
+.loginHeader img {
+  height: 10rem;
+  margin-bottom: 2rem;
+  margin-right: 3rem;
+  margin-top: 2rem;
+}
+
+.loginBody {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.inputField h4 {
+  color: rgb(137, 43, 226);
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.inputField input {
+  width: 40%;
+  text-align: center;
+  padding: 5px;
+  border: solid blueviolet 2px;
+  color: blueviolet;
+}
+
+::placeholder {
+  color: blueviolet;
+  font-weight: bold;
+}
+
+.selectContainer h4 {
+  margin-bottom: 0;
+  color: blueviolet;
+}
+
+.selectContainer select {
+  padding: 6px;
+  width: 40%;
+  border: solid blueviolet 2px;
+  color: blueviolet;
+}
+
+#join {
+  margin-top: 1rem;
+  width: 40%;
+  font-size: 1.2rem;
+  padding: 3px;
+  background-color: blueviolet;
+  color: white;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.chatContainer {
+  border: solid blueviolet 4px;
+  height: 80vh;
+  width: 70vw;
+  overflow: scroll;
+}
+
+.chatHeader {
+  border-bottom: solid blueviolet 4px;
+  max-width: 100%;
+  height: 7rem;
+}
+
+.chatHeader img {
+  height: auto;
+  max-height: 100%;
+  display: block;
+  max-width: 100%;
+  margin: auto;
+}
+
+.chatLeftCol {
+  border-right: solid blueviolet 4px;
+}
+
+.chatBotCol {
+  border-top: solid blueviolet 4px;
+  align-items: center;
+}
+
+.chatBotCol input {
+  width: 70%;
+  height: 2.3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.chatBotCol button {
+  width: 28%;
+  margin-bottom: 6px;
+}
+@media (max-width: 1100px) {
+  #loginForm {
+    height: 50vh;
+    width: 90vw;
+  }
+}

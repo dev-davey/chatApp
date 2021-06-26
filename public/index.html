@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="center">
+        <div id="loginForm">
+            <div class="loginHeader"><h3>Welcome To ChatApp</h3> <img src="./chat.png" alt=""></div>
+            <div class="loginBody">
+                <section class="inputField">
+                    <h4>Username</h4>
+                    <input type="text" placeholder="Choose A Username"/>
+                </section>
+                <section class="selectContainer">
+                    <h4>Choose a Chatroom</h4>
+                    <select name="chatroom" id="">
+                        <option value="recreational">Recreational</option>
+                        <option value="coding">Coding</option>
+                        <option value="support">Support</option>
+                    </select>
+                </section>
+                <a href="./chat.html"><button id="join">Join</button></a>
+                
+            </div>    
+        </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>
